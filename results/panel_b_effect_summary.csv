@@ -1,0 +1,4 @@
+approach,human_effects,same_direction,median_size_ratio,median_raw_ratio_exploratory
+Digital twins (gemini-3.8-flash),11,11,5.318299273468045,1.7835820895522385
+Prompted personas (gemini-3.8-flash),11,11,5.219864525997274,1.632030471308558
+Trained on behavior,11,11,4.157140832782903,1.2406780321081938

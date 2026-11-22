@@ -1,0 +1,7 @@
+approach,human_effects,same_direction,median_size_ratio,median_raw_ratio_exploratory
+"LLM prior (GPT-4.1, empty persona)",32,22,0.6469320451959923,0.17749896821610608
+Prompted personas (GPT-4.1),32,22,0.4557577244820848,0.2249791796624468
+Trained on behavior,32,32,2.785800741280168,1.0067378979254467
+Statistical twin (nearest neighbours),32,32,3.286874111587597,0.8568893984696475
+Digital twins (GPT-4.1),32,29,0.34041382171196066,0.27114066036479967
+"Digital twins (GPT-4.1, temperature 0)",32,27,0.33421936763507987,0.21302909654802815

@@ -1,0 +1,5 @@
+run,outcomes,matching_authors,max_abs_difference,mean_accuracy_all_outcomes,shared_outcomes,mean_accuracy_shared_outcomes,published,reproduces_published
+empty_persona,160,160,0.0,0.7337921084151212,160,0.7337921084151212,0.734,True
+demographics_only,160,160,0.0,0.7464125763860165,160,0.7464125763860165,,
+full_persona,161,161,0.0,0.7490942778604038,160,0.748332476239086,0.748,True
+temperature_zero,160,160,0.0,0.7523254504938717,160,0.7523254504938717,0.752,True

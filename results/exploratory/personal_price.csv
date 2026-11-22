@@ -1,0 +1,17 @@
+panel,approach,information,samples,people,accuracy,accuracy_lo,accuracy_hi,coverage
+A,Guess the average,other people's answers,1,2058,0.5694727891156464,0.5622303206997084,0.5766520894071915,0.0
+A,"Price model, population only","other people's pricing answers, product and price",1,2058,0.7319849368318756,0.72750212585034,0.7366253644314869,0.6031559963931469
+A,Personal price model,"as above, plus the person's own other pricing answers (32 of 40)",1,2058,0.7701895043731779,0.766057458697765,0.7741499635568513,0.744950405770965
+A,Trained on behavior,the person's wave 1–3 answers (holdout items excluded),1,2058,0.5400581253648119,0.5359032675202998,0.544285584134263,-0.10917110549903938
+A,Statistical twin (nearest neighbours),the person's wave 1–3 answers (holdout items excluded),1,2058,0.5748542274052479,0.5686646622934889,0.5808766095724004,0.01997294860234456
+A,Prompted personas (GPT-4.1-mini),demographics,1,2058,0.5846452866861032,0.578680454324587,0.5908163265306123,0.05631199278629415
+A,Digital twins (GPT-4.1-mini),wave 1–3 persona text (holdout items excluded),1,2058,0.6657069970845482,0.6608354591836735,0.6704084669582119,0.3571686203787196
+A,Humans (retest),the same person answering again,1,2058,0.8389091350826045,0.8343901846452868,0.8431365403304178,1.0
+B,Guess the average,other people's answers,1,200,0.5636249999999999,0.54111875,0.58575625,0.0
+B,"Price model, population only","other people's pricing answers, product and price",1,200,0.724375,0.708746875,0.7402500000000001,0.6097676623992416
+B,Personal price model,"as above, plus the person's own other pricing answers (32 of 40)",1,200,0.7641249999999999,0.7501218749999999,0.7776249999999999,0.7605500237079185
+B,Trained on behavior,the person's wave 1–3 answers (holdout items excluded),1,200,0.5454382952573655,0.532559199955748,0.5585666265203985,-0.06898702605077059
+B,Statistical twin (nearest neighbours),the person's wave 1–3 answers (holdout items excluded),1,200,0.5683125,0.548809375,0.5876874999999999,0.017780938833570667
+B,Digital twins (gemini-3.8-flash),wave 1–3 persona text (holdout items excluded),3,200,0.7142916666666668,0.6994583333333334,0.7288364583333332,0.5715188873083616
+B,Prompted personas (gemini-3.8-flash),demographics,3,200,0.7124166666666667,0.6987489583333333,0.7265416666666666,0.5644065117749332
+B,Humans (retest),the same person answering again,1,200,0.8272499999999999,0.813125,0.8407499999999999,1.0

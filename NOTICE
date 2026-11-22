@@ -1,0 +1,30 @@
+This project includes code ported from Digital-Twin-Simulation
+(https://github.com/tianyipeng-lab/Digital-Twin-Simulation, commit f1eed51),
+by the authors of the Twin-2K-500 dataset (Toubia, Gui, Peng, Merlau, Li
+and Chen). That code is licensed under the Apache License, Version 2.0;
+a copy is in LICENSES/Apache-2.0.txt.
+
+Ported files and their sources:
+
+  src/crowdeval/core/scoring.py                    evaluation/mad_accuracy_evaluation.py
+  src/crowdeval/upstream/question_text.py          text_simulation/convert_persona_to_text.py
+  src/crowdeval/upstream/format_instructions.py    text_simulation/convert_question_json_to_text.py
+  src/crowdeval/upstream/survey_prompt.py          text_simulation/convert_question_json_to_text.py,
+                                                   text_simulation/create_text_simulation_input.py,
+                                                   text_simulation/llm_helper.py
+  src/crowdeval/upstream/response_validation.py    text_simulation/postprocess_responses.py
+  src/crowdeval/upstream/answer_extraction.py      evaluation/json2csv.py
+
+The ported code has been modified: it was restructured to work in memory and
+some functions were rewritten. Each file's header names its source and
+describes what changed.
+
+It also includes material from Twin-2K-500-Mega-Study
+(https://github.com/TianyiPeng/Twin-2K-500-Mega-Study, commit afe2bb9),
+by Peng, Toubia and colleagues, licensed under the Apache License, Version 2.0:
+
+  src/crowdeval/upstream/mega_study_ranges.csv     post_metric_calculation/dv_variables_summary.csv (unchanged)
+  src/crowdeval/new_questions/mega_conditions.py   condition definitions in mega_study_evaluation/<study>/mega_study_evaluation.py
+  src/crowdeval/new_questions/mega_check.py        the accuracy rule in mega_study_evaluation/common/stats_analysis.py
+
+The condition definitions and the accuracy rule were rewritten, not copied.
