@@ -1,12 +1,12 @@
 # simulated-crowds-eval
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24559152.svg)](https://doi.org/10.5281/zenodo.24559152)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24559151.svg)](https://doi.org/10.5281/zenodo.24559151)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 
 Code, model outputs and results for the working paper *When the Average Looks Right: Evaluating Behavioural Fidelity in Synthetic Consumers* (Puneet Bajaj, 2026).
 
 - **Paper** (3 pages): [`when_the_average_looks_right.pdf`](when_the_average_looks_right.pdf), archived on Zenodo as
-  [doi:10.5281/zenodo.24559152](https://doi.org/10.5281/zenodo.24559152)
+  [doi:10.5281/zenodo.24559151](https://doi.org/10.5281/zenodo.24559151), which resolves to the latest version
 - **Companion article**: [Why the Median Was Hard to Beat](https://puneetbajaj.dev/writing/why-the-median-was-hard-to-beat/)
 
 A model can score well on survey prediction by giving everyone the usual answer. This repository measures how much more synthetic consumers learn about each person, using the 2,058 real respondents of [Twin-2K-500](https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500).
@@ -141,8 +141,8 @@ Cite the paper; GitHub's "Cite this repository" button reads [`CITATION.cff`](CI
   year      = {2026},
   publisher = {Zenodo},
   note      = {Preprint},
-  doi       = {10.5281/zenodo.24559152},
-  url       = {https://doi.org/10.5281/zenodo.24559152}
+  doi       = {10.5281/zenodo.24559151},
+  url       = {https://doi.org/10.5281/zenodo.24559151}
 }
 ```
 
