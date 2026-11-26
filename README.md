@@ -1,6 +1,13 @@
 # simulated-crowds-eval
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24559152.svg)](https://doi.org/10.5281/zenodo.24559152)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+
 Code, model outputs and results for the working paper *When the Average Looks Right: Evaluating Behavioural Fidelity in Synthetic Consumers* (Puneet Bajaj, 2026).
+
+- **Paper** (3 pages): [`when_the_average_looks_right.pdf`](when_the_average_looks_right.pdf), archived on Zenodo as
+  [doi:10.5281/zenodo.24559152](https://doi.org/10.5281/zenodo.24559152)
+- **Companion article**: [Why the Median Was Hard to Beat](https://puneetbajaj.dev/writing/why-the-median-was-hard-to-beat/)
 
 A model can score well on survey prediction by giving everyone the usual answer. This repository measures how much more synthetic consumers learn about each person, using the 2,058 real respondents of [Twin-2K-500](https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500).
 
@@ -123,9 +130,25 @@ results/           every table and figure, plus the published Gemini replies
 tests/             unit and data-backed tests
 ```
 
+## Citing
+
+Cite the paper; GitHub's "Cite this repository" button reads [`CITATION.cff`](CITATION.cff).
+
+```bibtex
+@misc{bajaj2026average,
+  author    = {Bajaj, Puneet},
+  title     = {When the Average Looks Right: Evaluating Behavioural Fidelity in Synthetic Consumers},
+  year      = {2026},
+  publisher = {Zenodo},
+  note      = {Preprint},
+  doi       = {10.5281/zenodo.24559152},
+  url       = {https://doi.org/10.5281/zenodo.24559152}
+}
+```
+
 ## Credits and licences
 
-- Code in this repository: MIT License.
+- Code in this repository: MIT License. The paper is released under CC BY 4.0.
 - Twin-2K-500: Toubia, O., Gui, G. Z., Peng, T., Merlau, D. J., Li, A., & Chen, H. (2025). Database Report: Twin-2K-500: A data set for building digital twins of over 2,000 people based on their answers to over 500 questions. *Marketing Science*, 44(6), 1446–1455. [doi:10.1287/mksc.2025.0262](https://doi.org/10.1287/mksc.2025.0262). CC BY 4.0, downloaded at run time and not redistributed here.
 - Twin-2K-500 Mega-Study: Peng, T., Brucks, M., Gui, G., et al. (2026). Digital twins are funhouse mirrors: Five systematic distortions. *Science Advances*, 12(36), eaeh8260. [doi:10.1126/sciadv.aeh8260](https://doi.org/10.1126/sciadv.aeh8260). Apache-2.0, downloaded at run time.
 - Column ranges, task mapping, prompt and response handling, the mega-study outcome ranges and condition definitions are ported from the authors' repositories under Apache-2.0. See [NOTICE](NOTICE).

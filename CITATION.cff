@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "simulated-crowds-eval: code, model outputs and results for 'When the Average Looks Right'"
+authors:
+  - family-names: Bajaj
+    given-names: Puneet
+    orcid: "https://orcid.org/0009-0004-7039-9720"
+date-released: 2026-11-26
+license: MIT
+repository-code: "https://github.com/Puneet-Bajaj-IITM/simulated-crowds-eval"
+keywords:
+  - synthetic consumers
+  - digital twins
+  - large language models
+  - survey prediction
+  - Twin-2K-500
+preferred-citation:
+  type: generic
+  title: "When the Average Looks Right: Evaluating Behavioural Fidelity in Synthetic Consumers"
+  authors:
+    - family-names: Bajaj
+      given-names: Puneet
+      orcid: "https://orcid.org/0009-0004-7039-9720"
+  year: 2026
+  month: 11
+  publisher:
+    name: Zenodo
+  notes: "Preprint"
+  doi: 10.5281/zenodo.24559152
+  url: "https://doi.org/10.5281/zenodo.24559152"
